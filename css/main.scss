@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.time-count-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  .card {
+    margin-top: 200px;
+    width: 200px;
+    height: 150px;
+    background: #ededed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.dates {
+  position: relative;
+  top: 150px;
+  left: -10px;
+}
+.cards-numbers {
+  position: relative;
+  left: 40px;
+}
+.mins {
+  position: relative;
+  left: 65px;
+}
+.secs {
+  position: relative;
+  left: 65px;
+}
+@media only screen and (max-width: 600px) {
+  .time-count-section {
+    display: flex;
+    flex-direction: column;
+  }
+}
